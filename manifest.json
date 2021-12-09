@@ -10,7 +10,6 @@
    "content_scripts": [ {
       "all_frames": true,
       "css": [ "styles/inject.css" ],
-      "js": [ "scripts/inject.js" ],
       "matches": [ "*://*.youtube.com/*" ],
       "run_at": "document_start"
    } ],   
@@ -32,6 +31,6 @@
       "page": "pages/options.html"
    },
    "permissions": [ "storage", "webRequest", "http://*/*", "https://*/*", "webRequestBlocking" ],
-   "short_name": "VideoAdblock",
+   "short_name": "YoutubeCat",
    "version": "2.2.5"
 }
