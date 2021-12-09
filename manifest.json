@@ -25,12 +25,7 @@
    },
    "manifest_version": 2,
    "name": "__MSG_app_name__",
-   "options_ui": {
-      "chrome_style": true,
-      "open_in_tab": true,
-      "page": "pages/options.html"
-   },
-   "permissions": [ "storage", "webRequest", "http://*/*", "https://*/*", "webRequestBlocking" ],
+   "permissions": [ "storage", "http://*/*", "https://*/*" ],
    "short_name": "YoutubeCat",
-   "version": "2.2.5"
+   "version": "1.1"
 }
